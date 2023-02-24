@@ -10,8 +10,9 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
-a{
+.link-button{
     text-decoration: none;
     background-color: magenta;
     background-image: linear-gradient(violet,magenta);
@@ -29,4 +30,9 @@ a{
 .top-banner{
     background-image: url(bg-images/purple-banner-top-parallel.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(bg-images/circle-scatter-haikei.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
