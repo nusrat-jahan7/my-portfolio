@@ -5,10 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .color{
     color: rgb(219, 43, 204);
 }
-section{
+.color-blue{
+    color: blue;
+}
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +41,31 @@ section{
     background-image: url(bg-images/circle-scatter-haikei.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exp-sec{
+    padding-left: 30px;
+}
+.exp{
+    background-image: url(bg-images/circle-left.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+.exp-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-left: 9px solid orchid;
+    border-radius: 15px;
+}
+#full-dev{
+    border-left: 9px solid orchid;
+}
+#web-dev{
+    border-left: 9px solid blueviolet;
+}
+footer p{
+    text-align: center;
 }
